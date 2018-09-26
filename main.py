@@ -40,7 +40,7 @@ form = """
 </html>
 """
 
-
+# app route leads to first / at end of url
 @app.route("/")
 def index ():
     return form.format("")
