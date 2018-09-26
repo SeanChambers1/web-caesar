@@ -28,14 +28,13 @@ form = """
     <body>
       <form action="/" method="post">
             <label>Rotate by:</label>
-            <input id="first-name" type="text" name="rot" />
+            <input id="first-name" type="text" name='rot' />
     
-      <textarea name="text" >{0}</textarea>
+      <textarea name='text' >{0}</textarea>
     
             <input type="submit" value="Submit Query">
     
-
-        </form>>
+        </form>
     </body>
 </html>
 """
